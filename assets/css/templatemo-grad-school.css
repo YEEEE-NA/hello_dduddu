@@ -720,6 +720,7 @@ section.coming-soon .continer .counter .seconds .value {
     margin-top: 15px;
     display: block;
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section.coming-soon .continer .counter span {
