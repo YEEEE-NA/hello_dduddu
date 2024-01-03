@@ -1,0 +1,10 @@
+# Etc
+.git/
+venv/
+
+# IntelliJ
+.idea/
+out/
+target/
+**/build/
+.gradle
