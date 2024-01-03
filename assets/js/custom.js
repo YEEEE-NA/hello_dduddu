@@ -22,7 +22,7 @@
         nav: true,
         autoplay: false,
         autoplayTimeout: 5000,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false,
         responsive: {
             0: {
                 items: 1
