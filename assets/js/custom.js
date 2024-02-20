@@ -74,8 +74,8 @@
 
 
     (function init() {
-        function getTimeRemaining(endtime) {
-            var t = Date.parse(endtime) - Date.parse(new Date());
+        function getTimeRemaining(dTime) {
+            var t = Date.parse(new Date()) - Date.parse(dTime);
             var seconds = Math.floor((t / 1000) % 60);
             var minutes = Math.floor((t / 1000 / 60) % 60);
             var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
@@ -90,9 +90,9 @@
             };
         }
 
-        function initializeClock(endtime) {
+        function initializeClock(dTime) {
             var timeinterval = setInterval(function () {
-                var t = getTimeRemaining(endtime);
+                var t = getTimeRemaining(dTime);
                 document.querySelector(".days > .value").innerText = t.days;
                 document.querySelector(".hours > .value").innerText = t.hours;
                 document.querySelector(".minutes > .value").innerText = t.minutes;
@@ -103,7 +103,7 @@
             }, 1000);
         }
 
-        initializeClock(((new Date()).getFullYear()) + "/02/01")
+        initializeClock(new Date('2024-02-03 15:49:00'))
     })()
 
 })(jQuery);
