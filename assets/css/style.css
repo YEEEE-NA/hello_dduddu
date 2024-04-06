@@ -9,6 +9,58 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: NanumPen;
+  src: url('../fonts/Korean/NanumPenScript-Regular.ttf');
+}
+
+@font-face {
+  font-family: YeonSung;
+  src: url('../fonts/Korean/YeonSung-Regular.ttf');
+}
+
+@font-face {
+  font-family: PoorStory;
+  src: url('../fonts/Korean/PoorStory-Regular.ttf');
+}
+
+@font-face {
+  font-family: HiMelody;
+  src: url('../fonts/Korean/HiMelody-Regular.ttf');
+}
+
+@font-face {
+  font-family: Dongle;
+  src: url('../fonts/Korean/Dongle-Regular.ttf');
+}
+
+@font-face {
+  font-family: Skybori;
+  src: url('../fonts/Korean/SKYBORI.ttf');
+}
+
+@font-face {
+  font-family: CafeM;
+  src: url('../fonts/Korean/Cafe24Moyamoya-Face-v1.0.ttf');
+}
+
+@font-face {
+  font-family: CafeS;
+  src: url('../fonts/Korean/Cafe24Supermagic-Regular-v1.0.ttf');
+}
+
+@font-face {
+  font-family: Kyobo;
+  src: url('../fonts/Korean/Kyobo.ttf');
+}
+
+@font-face {
+  font-family: CookieRun;
+  src: url('../fonts/Korean/CookieRun.ttf');
+}
+
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
